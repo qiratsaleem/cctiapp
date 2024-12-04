@@ -37,7 +37,7 @@ function DetailsPage() {
     ],
   };
 
-  const handleBackClick = () => navigate("/");
+  const handleBackClick = () => navigate("/dashboard");
   const handleReportNavigation = () => navigate("/report");
 
   const handlePlatformClick = (platform) => {
